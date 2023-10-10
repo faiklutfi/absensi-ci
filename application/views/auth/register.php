@@ -173,11 +173,10 @@
 
 <body>
     <div class="container">
-
         <div class="login">
             <div class="container">
                 <h1>Sign in</h1>
-                <form action="" method="post">
+                <form action="<?php ('Auth/aksi_login'); ?>" method="post">
                     <input id="username" name="username" type="text" placeholder="Username">
                     <input id="nama_depan" name="nama_depan" type="text" placeholder="Nama Depan"><br>
                     <input id="nama_belakang" name="nama_belakang" type="text" placeholder="Nama Belakang"><br>
@@ -196,7 +195,7 @@
                 <i class="fa-solid fa-user-pen"></i>
                 <h2>Halo,Kak!</h2>
                 <p>Jika Kakak Sudah Punya Akun Langsung Login Aja Kak</p>
-                <a type="button" href="">Login <i class="fas fa-arrow-circle-right"></i></a>
+                <a type="button" href="<?php ('auth'); ?>">Login <i class="fas fa-arrow-circle-right"></i></a>
             </div>
         </div>
     </div>
